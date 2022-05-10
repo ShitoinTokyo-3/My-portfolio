@@ -4,6 +4,7 @@ import Nata from '../../assets/Nata.jpeg';
 import Felipe from '../../assets/Felipe.jpeg';
 import Victor from '../../assets/Victor.png';
 import Pablo from '../../assets/Pablo.jpg';
+import Ivan from '../../assets/Ivan.jpeg';
 
 import { Pagination } from 'swiper';
 
@@ -15,6 +16,10 @@ import 'swiper/css/pagination';
 const Testimonials = () => {
     const data = [
         {
+            avatar: Ivan,
+            name: 'Ivan Iraldi',
+            review: 'I had the opportunity to work with Juan Duque during a group project for a bootcamp named soyHenry, the truth is he was an excellent colleague being able to learn while working and developing many new skills that can help the team That is why I think Juan Duque is one of the best people i know as a job candidate.'
+        },{
             avatar: Victor,
             name: 'Victor Rodriguez',
             review: 'I worked with Juan Duque in the preparation of the final project for the SoyHenry Bootcamp, I was able to demonstrate his proactivity, critical thinking, teamwork, and ability to adapt to the needs of development and to solve problems. It was a real pleasure working together.'
