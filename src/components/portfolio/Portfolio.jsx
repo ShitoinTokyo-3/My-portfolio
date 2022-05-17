@@ -2,12 +2,19 @@ import React from "react";
 import './portfolio.css';
 import DoggoApp from '../../assets/DoggosApp.jpeg';
 import SotelinoGallery from '../../assets/SotelinoGallery.jpeg';
+import { FormattedMessage } from 'react-intl';
 
 const Portfolio = () => {
     return (
         <section id="portfolio">
-            <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            <h5><FormattedMessage
+                id="portfolio.titleh5"
+                defaultMessage="My Recent Work"
+            /></h5>
+            <h2><FormattedMessage
+                id="portfolio.titleh2"
+                defaultMessage="Portfolio"
+            /></h2>
 
             <div className="container portfolio__container">
                 <article className="portfolio__item">
@@ -26,7 +33,7 @@ const Portfolio = () => {
                         href="https://workshop-heroku-q1fbl94av-shitointokyo-3.vercel.app" 
                         className="btn btn-primary"
                         target='_blank'>
-                            Live Demo
+                            Demo
                         </a>
                     </div>
                 </article>
@@ -46,7 +53,7 @@ const Portfolio = () => {
                         href="https://sotelino.vercel.app" 
                         className="btn btn-primary"
                         target='_blank'>
-                            Live Demo
+                            Demo
                         </a>
                     </div>
                 </article>

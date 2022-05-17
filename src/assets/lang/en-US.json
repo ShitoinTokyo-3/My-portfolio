@@ -1,0 +1,68 @@
+{
+    "header.titleh5": "Hello I'm",
+    "header.titleh1": "Juan Duque",
+    "header.titleh52": "Full Stack Web Developer",
+    "header.scrolldown": "Scroll Down",
+
+    "headercta.download": "Download CV",
+    "headercta.contact": "Let's Talk",
+
+
+    "about.titleh5": "Get To Know",
+    "about.titleh2": "About Me",
+    "about.experienceh5": "Experience",
+    "about.experiencesmall": "2+ Years programming",
+    "about.clientsh5": "Clients",
+    "about.clientssmall": "1",
+    "about.projectsh5": "Projects",
+    "about.projectssmall": "10+ Completed",
+    "about.aboutp": "I'm 19 years old Colombian, i like videogames and programming. I am currently focused on full stack web development and learn new technologies to exploit them. I want share with you my skills. Welcome!!",
+    "about.bottonContact": "Let's Talk",
+
+
+    "experience.titleh5": "What Skills I Have",
+    "experience.titleh2": "My Experience",
+    "experience.frontendtitle": "Frontend Development",
+    "experience.backendtitle": "BackEnd Development",
+    "experience.experienced": "Experienced",
+    "experience.intermediate": "Intermediate",
+    "experience.basic": "Basic",
+
+
+    "services.titleh5": "What I Offer",
+    "services.titleh2": "Services",
+    "services.p1": "Development and production of web applications",
+    "services.p2": "Development of scalable applications",
+    "services.p3": "And more...",
+    "services.p4": "Development and production of servers for user's interfaces",
+    "services.p5": "Database management",
+
+
+    "portfolio.titleh5": "My Recent Work",
+    "portfolio.titleh2": "Portfolio",
+
+    
+    "testimonials.titleh5": "Review from coworkers",
+    "testimonials.titleh2": "Testimonials",
+    "testimonials.ivanreview": "I had the opportunity to work with Juan Duque during a group project for a bootcamp named soyHenry, the truth is he was an excellent colleague being able to learn while working and developing many new skills that can help the team That is why I think Juan Duque is one of the best people i know as a job candidate.",
+    "testimonials.victorreview": "I worked with Juan Duque in the preparation of the final project for the SoyHenry Bootcamp, I was able to demonstrate his proactivity, critical thinking, teamwork, and ability to adapt to the needs of development and to solve problems. It was a real pleasure working together.",
+    "testimonials.pabloreview": "Juan is a person with great reasoning skills, always willing to help solve problems, and has a very good attitude when investigating new technologies. Excellent coworker and works with the humility of who knows what he does.",
+    "testimonials.nataliareview": "He is an incredible colleague, he brings excellent arguments to the work and most importantly he knows how to listen to other people's ideas, he is also a very friendly and intelligent person, he knows a lot about programming and he comes to the solution of the exercises quickly which contributes a lot, it is Comprehensive with people who cannot grasp the solutions to the exercise quickly, so they have no problem providing help by explaining.",
+    "testimonials.felipereview": "Juan Duque is a person committed to his part of development in projects and jobs, who takes the time necessary to correctly complete the proposed objective. On the other hand, he lends himself to being a source of solution help in other areas of work, thus lending a good different point of view.",
+
+
+    "contact.titleh5": "Get In Touch",
+    "contact.titleh2": "Contact Me",
+    "contact.sendmessage": "Send a message",
+    "contact.sendmessage2": "Send message",
+
+
+    "footer.a1": "Home",
+    "footer.a2": "About",
+    "footer.a3": "Experience",
+    "footer.a4": "Services",
+    "footer.a5": "Portfolio",
+    "footer.a6": "Testimonials",
+    "footer.a7": "Contact"
+
+}

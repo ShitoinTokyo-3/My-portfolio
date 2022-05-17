@@ -1,12 +1,19 @@
 import React from "react";
 import './services.css';
 import { BiCheck } from 'react-icons/bi';
+import { FormattedMessage } from 'react-intl';
 
 const Services = () => {
     return (
         <section id='services'>
-            <h5>What I Offer</h5>
-            <h2>Services</h2>
+            <h5><FormattedMessage
+                id="services.titleh5"
+                defaultMessage="What I Offer"
+            /></h5>
+            <h2><FormattedMessage
+                id="services.titleh2"
+                defaultMessage="Services"
+            /></h2>
 
             <div className='container services__container'>
                 <article className="service">
@@ -17,11 +24,17 @@ const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BiCheck  className="service__list-icon"/>
-                            <p>Development and production of web applications</p>
+                            <p><FormattedMessage
+                                id="services.p1"
+                                defaultMessage="Development and production of web applications"
+                            /></p>
                         </li>
                         <li>
                             <BiCheck  className="service__list-icon"/>
-                            <p>Development of scalable applications</p>
+                            <p><FormattedMessage
+                                id="services.p2"
+                                defaultMessage="Development of scalable applications"
+                            /></p>
                         </li>
                     </ul>
                 </article>
@@ -46,10 +59,14 @@ const Services = () => {
                         </li>
                         <li>
                             <BiCheck  className="service__list-icon"/>
-                            <p>Dashboards.</p>
+                            <p>Dashboards</p>
                         </li>
                         <li>
-                            <p>And more...</p>
+                            <p>
+                            <FormattedMessage
+                                id="services.p3"
+                                defaultMessage="And more..."
+                            /></p>
                         </li>
                     </ul>
                 </article>
@@ -62,11 +79,17 @@ const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BiCheck  className="service__list-icon"/>
-                            <p>Development and production of servers for the client</p>
+                            <p><FormattedMessage
+                                id="services.p4"
+                                defaultMessage="Development and production of servers for user's interfaces"
+                            /></p>
                         </li>
                         <li>
                             <BiCheck  className="service__list-icon"/>
-                            <p>Database management</p>
+                            <p><FormattedMessage
+                                id="services.p5"
+                                defaultMessage="Database management"
+                            /></p>
                         </li>
                     </ul>
                 </article>

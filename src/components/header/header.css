@@ -10,6 +10,25 @@ header{
     position: relative;
 }
 
+ .header__language{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header__language button{
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.header__language-icon{
+    font-size: 1.3rem;
+    color: var(--color-bg);
+    margin-bottom: -.21rem;
+    margin-right: .3rem;
+}
+
+
 /* ================== CTA ================== */
 .cta{
     margin-top: 2.5rem;
@@ -77,5 +96,17 @@ header{
     .header__socials,
     .scroll__down {
         display: none;
+    }
+    .header__language{
+        margin-top: -5rem;
+    }
+    .header__language button{
+        font-size: .8rem;
+        margin: 0 0.5rem;
+    }
+    .header__language-icon{
+        font-size: 1.1rem;
+        margin-bottom: -.2rem;
+        margin-right: .2rem;
     }
 }

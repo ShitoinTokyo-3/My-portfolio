@@ -1,0 +1,71 @@
+{
+    "header.titleh5": "Hola Yo Soy",
+    "header.titleh1": "Juan Duque",
+    "header.titleh52": "Desarrollador Web Full Stack",
+    "header.scrolldown": "Desplazarse Hacia Abajo",
+
+    "headercta.download": "Descargar HV",
+    "headercta.contact": "Vamos a Hablar!",
+
+
+    "about.titleh5": "Conoce",
+    "about.titleh2": "Sobre Mi",
+
+    "about.experienceh5": "Experiencia",
+    "about.experiencesmall": "2+ Años Programando",
+
+    "about.clientsh5": "Clientes",
+    "about.clientssmall": "1",
+
+    "about.projectsh5": "Proyectos",
+    "about.projectssmall": "10+ Completos",
+
+    "about.aboutp": "Soy un colombiano de 19 años, me gustan los videojuegos y la programación. Actualmente estoy enfocado en el desarrollo web full stack y aprendo nuevas tecnologías para explotarlas. Quiero compartir contigo mis habilidades. Bienvenido!!",
+    "about.bottonContact": "Vamos a Hablar!",
+
+
+    "experience.titleh5": "¿Que Habilidades Tengo?",
+    "experience.titleh2": "Mi Experiencia",
+    "experience.frontendtitle": "Desarrollo en Frontend",
+    "experience.backendtitle": "Desarrollo en BackEnd",
+    "experience.experienced": "Experimentado",
+    "experience.intermediate": "Intermedio",
+    "experience.basic": "Basico",
+    
+    "services.titleh5": "¿Que Ofrezco?",
+    "services.titleh2": "Servicios",
+    "services.p1": "Desarrollo y producción de aplicaciones web.",	
+    "services.p2": "Desarrollo de aplicaciones escalables.",
+    "services.p3": "Y mas...",
+    "services.p4": "Desarrollo y produccion de servidores para las interfaces de usuario.",
+    "services.p5": "Manejo de bases de datos.",
+    
+
+    "portfolio.titleh5": "Mi Trabajo Reciente",
+    "portfolio.titleh2": "Portafolio",
+
+    
+    "testimonials.titleh5": "Comentarios De Mis Compañeros De Trabajo",
+    "testimonials.titleh2": "Testimonios",
+    "testimonials.ivanreview": "Tuve la oportunidad de trabajar con Juan Duque durante un proyecto grupal para un Bootcamp llamado soyHenry, la verdad es un excelente compañero logrando aprender trabajando y desarrollando muchas habilidades nuevas que pueden ayudar al equipo. Por eso creo que Juan Duque es una de las mejores personas que conozco como candidato a un puesto de trabajo.",
+    "testimonials.victorreview": "Trabaje con Juan Duque en la elaboración del proyecto final para el bootcamp SoyHenry, pude evidenciar su proactividad, pensamiento critico, trabajo en equipo, habilidad para adaptarse a las necesidades del desarrollo y de resolver problemas. Fue un verdadero gusto trabajar juntos.",
+    "testimonials.pabloreview": "Juan es una persona con gran capacidad de razonamiento, siempre dispuesto a ayudar para solucionar los problemas,   muy buena actitud al investigar nuevas tecnologías. Excelente compañero y trabaja con la humildad de quién sabe lo que hace.",
+    "testimonials.nataliareview": "Es un compañero increíble, aporta excelentes argumentos al trabajo y lo mas importante sabe escuchar las ideas de los demás, además es una persona muy amigable e inteligente, sabe mucho de programación y llega a la solución de los ejercicios rápidamente lo que contribuye bastante, es comprensivo con las personas que no tiene la capacidad de captar las soluciones al ejercicio de manera rápida por lo cual no tiene problema brindar ayudas explicando.",
+    "testimonials.felipereview": "Juan Duque es una persona comprometida con su parte de desarrollo en proyectos y trabajos, quién se toma el tiempo necesario para dar por finalizado correctamente el objetivo propuesto. Por otro lado, se presta para ser una fuente de ayuda para la solución en otras áreas de trabajo, prestando así un buen punto de vista diferente.",
+
+
+    "contact.titleh5": "Ponerte en Contacto",
+    "contact.titleh2": "Contactame",
+    "contact.sendmessage": "Envia un Mensaje",
+    "contact.sendmessage2": "Envia tu Mensaje",
+
+
+    "footer.a1": "Home",
+    "footer.a2": "Sobre Mi",
+    "footer.a3": "Experiencia",
+    "footer.a4": "Servicios",
+    "footer.a5": "Portafolio",
+    "footer.a6": "Testimonios",
+    "footer.a7": "Contacto"
+
+}
