@@ -1,8 +1,7 @@
 {
-    "header.titleh5": "Hola Yo Soy",
-    "header.titleh1": "Juan Duque",
-    "header.titleh52": "Desarrollador Web Full Stack",
-    "header.scrolldown": "Desplazarse Hacia Abajo",
+    "header.titleh1": "Hola 👋 Yo soy ",
+    "header.titleh1span": "Juan Duque",
+    "header.span": "Yo soy un",
 
     "headercta.download": "Descargar HV",
     "headercta.contact": "Vamos a Hablar!",

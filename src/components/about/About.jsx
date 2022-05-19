@@ -5,6 +5,7 @@ import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { FormattedMessage } from 'react-intl';
+import { motion } from 'framer-motion';
 
 const About = () => {
     return (
@@ -21,7 +22,13 @@ const About = () => {
                 <div className="container about__container">
                     <div className="about__me">
                         <div className="about__me-image">
-                            <img src={ME} alt="" />
+                            <motion.img 
+                            className="about__me-image-img"
+                            src={ME} 
+                            alt="Juan Duque" 
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            />
                         </div>
                     </div>
 

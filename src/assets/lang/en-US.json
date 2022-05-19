@@ -1,8 +1,7 @@
 {
-    "header.titleh5": "Hello I'm",
-    "header.titleh1": "Juan Duque",
-    "header.titleh52": "Full Stack Web Developer",
-    "header.scrolldown": "Scroll Down",
+    "header.titleh1": "Hello 👋 I am ",
+    "header.titleh1span": "Juan Duque",
+    "header.span": "I'm a",
 
     "headercta.download": "Download CV",
     "headercta.contact": "Let's Talk",

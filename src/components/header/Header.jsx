@@ -1,53 +1,62 @@
 import './header.css';
 import CTA from "./CTA";
-import ME from "../../assets/meAja.png";
 import HeaderSocials from './HeaderSocials';
 import { FormattedMessage } from 'react-intl';
-import { useContext } from 'react';
-import { langContext } from '../../assets/contex/langContex';
-import { BiWorld } from "react-icons/bi";
+import Typical from 'react-typical';
+import { motion } from 'framer-motion';
+import Portada from '../../assets/Portada.png';
 
 
 const Header = () => {
-    const language = useContext(langContext);
     return (
         <header>
             <div className="container header__container">
-                <div className='header__language'>
-                    <button 
-                        onClick={() => language.setLanguage('es-ES')}
-                        className='btn btn-primary languages'>
-                        <BiWorld className='header__language-icon'/>ESP
-                    </button>
-                    <button 
-                        onClick={() => language.setLanguage('en-US')}
-                        className='btn btn-primary languages'>
-                        <BiWorld className='header__language-icon'/>ENG
-                    </button>
+                <div className='header__flex'>
+                    <div className='header__presentation'>
+                        <h1>
+                            <FormattedMessage
+                                id="header.titleh1"
+                                defaultMessage="Hello 👋 I am "/><br/>
+                            <span>
+                                <FormattedMessage
+                                    id="header.titleh1span"
+                                    defaultMessage="Juan Duque"/>
+                            </span>
+                        </h1>
+                        <span>
+                            <FormattedMessage
+                                id="header.span"
+                                defaultMessage="I'm a"/>{' '} 
+                            <Typical
+                                loop={Infinity}
+                                wrapper="b"
+                                steps={[
+                                    'Front-end Developer 💅',
+                                    3000,
+                                    'Back-end Developer 🤖',
+                                    3000,
+                                    'Full-stack Developer 🚀',
+                                    3000,
+                                    'UI/UX Designer 🤠',
+                                    2000,
+                                    'Student 🧐',
+                                    2000
+                                ]}
+                            />
+                        </span>
+                    </div>
+                    <div className='header__flex-child2'>
+                            <motion.img
+                                className='header__img'
+                                src={Portada}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 , scale: 1.2}}
+                                transition={{ duration: 1, delay: 1 }}
+                            />
+                    </div>
                 </div>
-                <h5><FormattedMessage
-                    id="header.titleh5"
-                    defaultMessage="Hello I'm"
-                /></h5>
-                <h1><FormattedMessage
-                    id="header.titleh1"
-                    defaultMessage="Juan Duque"
-                /></h1>
-                <h5 className="text-light"><FormattedMessage
-                    id="header.titleh52"
-                    defaultMessage="Full Stack Developer"
-                /></h5>
                 <CTA />
                 <HeaderSocials />
-
-                <div className="me">
-                    <img src={ME} />
-                </div>
-
-                <a href="#contact" className="scroll__down"><FormattedMessage
-                    id="header.scrolldown"
-                    defaultMessage="Scroll Down"
-                /></a>
             </div>
         </header>
     );

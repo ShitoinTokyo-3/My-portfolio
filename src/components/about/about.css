@@ -18,14 +18,15 @@
 }
 
 .about__me-image {
-    border-radius: 2rem;
-    overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 } 
 
 .about__me-image:hover {
     transform: rotate(0);
+}
+.about__me-image-img{
+    border-radius: 2rem;
 }
 
 .about__cards {
