@@ -76,3 +76,16 @@
         background-color: var(--color-primary);
     }
 }
+
+/* -------------------- MEDIA QUERIES (SMALL DEVICES) -------------------- */
+
+@media screen and (max-width: 600px) {
+    .sidebar__background{
+        width: 100vh;
+    }
+    .sidebar__ul{
+        margin-left: 1.5rem;
+
+    }
+    
+}
