@@ -34,30 +34,6 @@ header{
     margin: auto;
     margin-top: 2rem;
 }
-/* .header__animated{
-    width: 10rem;
-    height: 10rem;
-    background-color: var(--color-primary);
-    margin: 2.5rem auto;
-} */
- /* .header__language{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.header__language button{
-    font-size: 1rem;
-    margin: 0 1rem;
-}
-
-.header__language-icon{
-    font-size: 1.3rem;
-    color: var(--color-bg);
-    margin-bottom: -.21rem;
-    margin-right: .3rem;
-} */
-
 
 /* ================== CTA ================== */
 .cta{
@@ -117,22 +93,28 @@ header{
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        padding-top: 4.5rem;
+    }
+    .header__presentation span{
+        font-size: 1.3rem;
     }
     .header__presentation h1{
         font-size: 3rem;
         line-height: 5rem;
-        margin-bottom: 5.5rem;
+        margin-bottom: 2.5rem;
     }
     .header__presentation h1 span {
         font-size: 4.5rem;
     }
     .header__img {
         display: none;
+        width: 0;
     }
 
     .header__socials {
-        margin-top: 3rem;
+        margin-top: 2rem;
         border-bottom: none;
+        width: 300px;
     }
     .header__language{
         margin-top: -5rem;

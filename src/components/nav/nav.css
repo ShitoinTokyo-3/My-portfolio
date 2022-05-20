@@ -1,4 +1,4 @@
-.nav_prin{
+nav{
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
@@ -14,7 +14,7 @@
     backdrop-filter: blur(15px);
 }
 
-.nav_prin a{
+nav a{
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
@@ -23,11 +23,11 @@
     font-size: 1.1rem;
 }
 
-.nav_prin a:hover{
+nav a:hover{
     background: rgba(0, 0, 0, 0.3);
 }
 
-.nav_prin a.active {
+nav a.active {
     background: var(--color-primary);
     color:var(--color-bg);
 }

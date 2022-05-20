@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#');
     return (
-        <nav className='nav_prin'>
+        <nav>
             <a 
             href="#" 
             className={activeNav === '#'? 'active' : ''} 
