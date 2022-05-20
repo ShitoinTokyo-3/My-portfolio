@@ -94,9 +94,10 @@ header{
     header {
         height: 100vh;
         padding-top: 4.5rem;
+        margin-bottom: 4rem;
     }
     .header__presentation span{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .header__presentation h1{
         font-size: 3rem;
